@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    font-family: Arial;
+}
+
+/*********** Parallax Efect ************/
+.parallax-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, #b8cbb85a 0%, #b8cbb85a 0%, #b465da5a 0%,
+                     #cf6cc95a 33%, #ee609c5a 66%, #ee609c5a 100%), url('images/background-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0.1px;
+}
+
+.title {
+    margin: 270px auto;
+    font-size: 75px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 28px -17px 19px rgba(0,0,0,0.52);
+}
+
+.attachment {
+    background-attachment: fixed;
+}
+
+.gradient-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(120deg, #fdfbfb1a 0%, #ebedee1a 100%), url('images/background-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0.1px;
+}
+
+.title-2{
+    margin: 250px auto;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 28px -17px 19px rgba(0,0,0,0.52);
+}
